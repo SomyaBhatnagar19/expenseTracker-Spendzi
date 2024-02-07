@@ -1,11 +1,13 @@
 /* /frontend/App.js */
 
-import './App.css';
+// import './App.css';
+import Login from "./Views/login";;
 
 function App() {
   return (
-    <div className="App">
-      Welcome to Spendzi!!
+    <div>
+    
+      <Login />
     </div>
   );
 }
